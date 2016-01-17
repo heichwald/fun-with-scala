@@ -7,7 +7,6 @@ lazy val root = (project in file(".")).
 
 libraryDependencies ++= Seq("org.specs2" %% "specs2-core" % "3.6.6" % "test",
 							"org.specs2" %% "specs2-junit" % "3.6.6" % "test",
-							"org.specs2" %% "specs2-scalacheck" % "3.6.6" % "test",
-							"junit" % "junit" % "4.8.1" % "test")
+							"org.specs2" %% "specs2-scalacheck" % "3.6.6" % "test")
 
 scalacOptions in Test ++= Seq("-Yrangepos")

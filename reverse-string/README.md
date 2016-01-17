@@ -1,1 +1,1 @@
-sbt test
+`sbt test`
